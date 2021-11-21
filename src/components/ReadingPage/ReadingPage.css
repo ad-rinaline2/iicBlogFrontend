@@ -45,11 +45,19 @@
   text-align: right;
   padding-right: 5px;
 }
+
 .article_page_image {
   margin: 10px auto;
-  width: 90%;
-  height: 200px;
+  width: 40em;
+  height: 30em;
+  display: flex;
 }
+@media only screen and (max-width: 768px) {
+  .article_page_image{
+    width: auto;
+  }
+}
+/*
 * {
   margin: 0;
   padding: 0;
@@ -60,16 +68,18 @@
 html {
   scroll-behavior: smooth;
 }
+*/
 
 .card-pic img {
   margin: auto;
   display: flex;
-  width: 70em;
+  width: 40em;
   height: 40em;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+/*
 .small-para {
   font-size: 1rem;
   display: flex;
@@ -138,3 +148,4 @@ html {
     margin: auto;
   }
 }
+*/
